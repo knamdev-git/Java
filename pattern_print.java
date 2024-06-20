@@ -101,5 +101,48 @@ public class pattern_print {
                 }
                 System.out.println();
             }
-    }
-}//end main class 
+// print a solid rhombus 
+            System.out.println("Print a solid rhombus");
+            for (row = 1 ; row <= n ; row ++){
+                //space 
+                for (col =1 ; col <= n - row ; col++){
+                        System.out.print("  ");
+                }
+                //star
+                for (col = 1 ; col <= n ; col ++){
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
+//Number pyramid
+            System.out.println("Number pyramid");
+            for (int i = 1; i <= n; i++) {
+                // space 
+                for (int j = 0; j <= n-i; j++) {
+                    System.out.print(" ");
+                }
+                //star
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(i+" ");
+                }
+                System.out.println();
+            }
+//palindromic number pyramid
+            System.out.println("Palindromic number pyramid");
+            for (row = 1; row <= n; row++) {
+                //space
+                for ( col = 1; col <= n - row; col++) {
+                  System.out.print("  ");  
+                }
+                //number row to 1 : desending form
+                for(col = row ; col >= 1 ; col--){
+                    System.out.print(col+" ");
+                }
+                //number (1 + 1) to row
+                for(col = 1+1 ; col <= row ; col++){
+                    System.out.print(col+" ");
+                } 
+                System.out.println();
+            }
+    }//end main class 
+}
