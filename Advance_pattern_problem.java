@@ -77,6 +77,6 @@ public class Advance_pattern_problem {
         }//end of diamond loop 
 
         scan.close();
-//Pattern : 
+ 
     }//end of main class
 }//end of Advance_pattern_problem class 
