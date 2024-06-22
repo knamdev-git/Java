@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class functions_topic {
+    //Global declareda variable pie
     static double pie = 3.1415926 ;
+
     //print name simple function 
     
     public static void printMyName(String name){
@@ -12,7 +14,7 @@ public class functions_topic {
     
     }
    
-    //Number is prime or not 
+    // function for Number is prime or not 
     
     public static void Check_prime(int num){
         if (num == 2 || num == 3 || num == 5 || num == 7 ){
@@ -37,7 +39,7 @@ public class functions_topic {
             return 0;
         }
     
-        for (;  num >= 1; num--) {
+        for (;  num >= 1; num--) { // did'nt write num initialization bcze it's optional
             mul = mul * num ;
         }
     
@@ -47,7 +49,7 @@ public class functions_topic {
 
 
     
-    //Driver Code 
+    //Driver Code (main class)
     
     public static void main(String[] args) {
         
@@ -115,7 +117,7 @@ public class functions_topic {
     
     }//end of main class 
     
-   //sumOfItsElem
+   //function for sumOfItsElem :-
    
    public static int sumOfItsElem ( int num ){
    
