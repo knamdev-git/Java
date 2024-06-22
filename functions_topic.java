@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class functions_topic {
-    //Global declareda variable pie
+    //Global declared a variable pie
     static double pie = 3.1415926 ;
 
     //print name simple function 
